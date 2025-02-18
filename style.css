@@ -1,0 +1,165 @@
+/* Reset Styles */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #031bb5;
+}
+
+/* Main Container */
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    border: none;
+    border-radius: 10px;
+    background: rgb(164, 206, 250);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+/* Box */
+.box {
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #e9eef8;
+}
+
+/* Level Selection */
+.levelBtn {
+    display: flex;
+    gap: 10px;
+}
+
+.levelBtn button {
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.levelBtn button:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+/* Quiz Section */
+.quizSection {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    color: #007bff;
+}
+
+/* Question Styling */
+.questionContainer {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #010c5e;
+}
+
+/* Options */
+.options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.option-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 80%;
+    transition: 0.3s;
+}
+
+.option-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Correct and Incorrect Answer Feedback */
+.correct {
+    background-color: #28a745 !important;
+}
+
+.incorrect {
+    background-color: #dc3545 !important;
+}
+
+/* Next & Submit Buttons */
+.next {
+    margin-top: 20px;
+}
+
+#next, #submit {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#next {
+    background-color: #007bff;
+    color: white;
+}
+
+#next:hover {
+    background-color: #0056b3;
+}
+
+#submit {
+    background-color: #28a745;
+    color: white;
+}
+
+#submit:hover {
+    background-color: #218838;
+}
+
+/* Hide elements */
+.hidden {
+    display: none;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 600px) {
+    .container {
+        width: 95%;
+        padding: 15px;
+    }
+
+    .option-btn {
+        width: 100%;
+    }
+}
+#heading{
+    color: #010c5e;
+}
+#para{
+    color: #03137c;
+    font-family: cursive;
+}
+#head{
+    color: #007bff;
+    font-family: cursive;
+}
+.foot{
+    font-family: cursive;
+    color: #d7eafe;
+}

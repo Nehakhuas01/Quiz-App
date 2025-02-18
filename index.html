@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron text-center">
+            <h1 id="heading">Time to Quiz Yourself to Greatness!</h1>
+            <p id="para">Get your thinking cap on!</p>
+        </div>
+
+        <div class="box">
+            <div class="select">
+                <h3 id="head">Select a level:</h3>
+            </div>
+
+            <div class="levelBtn">
+                <button type="button" class="btn btn-info" data-level="beginner">Beginner</button>
+                <button type="button" class="btn btn-info" data-level="intermediate">Intermediate</button>
+                <button type="button" class="btn btn-info" data-level="advanced">Advanced</button>
+            </div>
+
+            <br><br>
+
+            <div class="quizSection hidden">
+                <div class="quizContainer">
+                    <h2 class="quizLevel"></h2>
+                    <div class="questionContainer"></div>
+                    <div class="next">
+                        <button type="button" id="next" class="btn btn-info hidden">Next</button>
+                        <button type="button" id="submit" class="btn btn-success hidden">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <center>
+        <h3 class="foot">Created by Neha Khuas</h3>
+    </center>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
